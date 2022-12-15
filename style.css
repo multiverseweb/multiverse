@@ -977,7 +977,7 @@ ul.solarsystem li.pluto {
 .city {
     width: 700%;
     height: 40vh;
-    background-image: url('images/cityimage.webp');
+    background-image: url('cityimage.webp');
     opacity: 0.7;
     background-size: contain;
     background-position: center;
