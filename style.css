@@ -1,0 +1,1028 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+
+}
+
+*{
+    margin-top: 0;
+}
+
+body {
+    margin-left: 10px;
+    font-family: 'Courier New';
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, transparent 29px, rgba(55, 55, 55, 0.607) 1px),
+        linear-gradient(to bottom, transparent 29px, rgba(55, 55, 55, 0.605) 1px);
+    background-size: 30px 30px;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.multiverse{
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    float:left;
+    width: 100%;
+    background-image: linear-gradient(30deg, rgba(68, 68, 68, 0.663), rgba(111, 111, 111, 0.658), rgba(68, 68, 68, 0.69));
+    z-index: 2;
+}
+
+.move{
+    display: flex;
+    float: left;
+    padding-left: 20%;
+    margin-left: 62%;
+    position: relative;
+    color: #000;
+    z-index: -1;
+}
+.move>text{
+    z-index: -2;
+}
+
+.circle.cir{
+    position:absolute;
+    left:13%;
+    height:75px;
+    width:75px;
+    border-radius: 75px;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    background:#2DE0DD;
+    box-shadow: 0px 0px 15px #2DE0DD;
+  }
+ 
+  .circle.one {
+  border: 15px solid;
+  top: -27px;
+  left: -27px;
+  position: absolute;
+  border-color: rgba(200,200,255,0.3) rgba(200,200,255,0.3) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-radius: 50%;
+  margin: 0px;
+  height: 100px;
+  width: 100px;
+    
+   animation: move 10s ease infinite;
+  -moz-animation: move 10s ease infinite;
+  -webkit-animation: move 10s ease infinite;
+  -o-animation: move 10s ease infinite;
+  }
+  
+  .circle.two {
+  border: 3px dotted;
+  padding: 0px;
+  margin: 0px;
+  border-color: rgba(68,123,130,0.7) rgba(0,0,0,0);
+  border-radius: 50%;
+  top: -86px;
+  left: -40px;
+  height: 150px;
+  width: 150px;
+  position:relative;  
+    
+  animation: move 15s ease infinite;
+  -moz-animation: move 15s ease infinite;
+  -webkit-animation: move 15s ease infinite;
+  -o-animation: move 15s ease infinite;
+  }
+  
+  
+  .circle.three {
+  color: #000;
+  border: 25px solid;
+  padding: 0px;
+  margin: 10px;
+  position: absolute;
+  border-color: rgba(255,255,255,0.7) rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+  border-radius: 50%;
+  top: -6px;
+  left: -6px;
+  height: 90px;
+  width: 90px;
+  animation: move 25s ease infinite;
+  -moz-animation: move 25s ease infinite;
+  -webkit-animation: move 25s ease infinite;
+  -o-animation: move 25s ease infinite;
+  }
+   
+  @keyframes move
+  {
+  0%   {transform: rotate(0deg);}
+  50%{transform: rotate(200deg);}
+  100% {transform: rotate(0deg);}
+  }
+  
+  @-webkit-keyframes move 
+  {
+  0%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center;}
+  50%{-webkit-transform: rotate(200deg); -webkit-transform-origin: center;}
+  100% {-webkit-transform: rotate(0deg); -webkit-transform-origin: center;}
+  }
+  
+  @-moz-keyframes move 
+  {
+  0%   { -moz-transform: rotate(0deg);}
+  50%{ -moz-transform: rotate(200deg);}
+  100% { -moz-transform: rotate(0deg);}
+  }
+  
+  @-o-keyframes move
+  {
+  0%   {-o-transform: rotate(0deg);}
+  50%{-o-transform: rotate(200deg);}
+  100% {-o-transform: rotate(0deg);}
+  }
+
+
+a:link {
+    color: cyan
+}
+
+a:visited {
+    color: cyan
+}
+
+a:hover {
+    color: yellow
+}
+
+
+
+.center {
+    display: block;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.headleft {
+    text-align: left;
+}
+
+.headright {
+    text-align: right;
+}
+
+
+.about,
+.heading {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.text {
+    text-align: justify;
+    font-size: medium;
+    margin-left: 15px;
+    margin-right: 15px;
+    z-index: 3;
+}
+
+.imgleft {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.imgright {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.textright {
+    text-align: justify;
+    font-size: medium;
+    margin-left: 100px;
+    margin-right: 15px;
+}
+
+.textleft {
+    text-align: justify;
+    font-size: medium;
+    margin-right: 100px;
+    margin-left: 15px;
+}
+
+.lot {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    float: left;
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: #000000de;
+    border-radius: 10px;
+    position:relative;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 20;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar a:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 50px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 17px 44px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+}
+
+
+@keyframes changeBg {
+    0% {
+        background: #101935ff;
+    }
+
+    25% {
+        background: #9ad4d6ff;
+    }
+
+    50% {
+        background: #101935ff;
+    }
+
+    75% {
+        background: #9ad4d6ff;
+    }
+
+    100% {
+        background: #101935ff;
+    }
+}
+
+
+form {
+    margin-left: 50%;
+    margin-right: auto;
+    width: 320px;
+    height: 220px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background: rgba(76, 76, 76, 0.5);
+    -moz-box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+textarea {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+    width: 255px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, .6);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 45px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+input {
+    width: 255px;
+    height: 38px;
+    border: 1px solid rgba(255, 255, 255, .4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input.name {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px;
+    padding-left: 15px;
+}
+
+input.email {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
+    padding-left: 15px;
+}
+
+input.message {
+    background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
+    padding-left: 15px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder {
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    overflow: hidden;
+}
+
+.btn {
+    width: 138px;
+    height: 44px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+    border: 1px solid #253737;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
+    background: -webkit-linear-gradient(top, #6da5a3, #416b68);
+    background: -moz-linear-gradient(top, #6da5a3, #416b68);
+    background: -ms-linear-gradient(top, #6da5a3, #416b68);
+    background: -o-linear-gradient(top, #6da5a3, #416b68);
+    background-image: -ms-linear-gradient(top, #6da5a3 0%, #416b68 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    text-shadow: #333333 0 1px 0;
+    color: #e1e1e1;
+}
+
+.btn:hover {
+    border: 1px solid #253737;
+    text-shadow: #333333 0 1px 0;
+    background: #416b68;
+    background: -webkit-gradient(linear, left top, left bottom, from(#77b2b0), to(#416b68));
+    background: -webkit-linear-gradient(top, #77b2b0, #416b68);
+    background: -moz-linear-gradient(top, #77b2b0, #416b68);
+    background: -ms-linear-gradient(top, #77b2b0, #416b68);
+    background: -o-linear-gradient(top, #77b2b0, #416b68);
+    background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
+    color: #fff;
+}
+
+.btn:active {
+    margin-top: 1px;
+    text-shadow: #333333 0 -1px 0;
+    border: 1px solid #253737;
+    background: #6da5a3;
+    background: -webkit-gradient(linear, left top, left bottom, from(#416b68), to(#416b68));
+    background: -webkit-linear-gradient(top, #416b68, #609391);
+    background: -moz-linear-gradient(top, #416b68, #6da5a3);
+    background: -ms-linear-gradient(top, #416b68, #6da5a3);
+    background: -o-linear-gradient(top, #416b68, #6da5a3);
+    background-image: -ms-linear-gradient(top, #416b68 0%, #6da5a3 100%);
+    color: #fff;
+    -webkit-box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+}
+
+.links>ul {
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+
+
+.policy {
+    display: flex;
+    float: none;
+    text-align: center;
+    align-self: center;
+    text-decoration: none;
+    margin-left: 43%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
+
+
+
+/* Solar System Styles */
+
+.clearfix {
+    z-index: 1;
+}
+
+.solarsystem {
+    z-index: 1;
+}
+
+ul.solarsystem {
+    position: relative;
+    height: 640px;
+    list-style: none;
+    -webkit-transition: all 0.09s ease-in;
+    -moz-transition: all 0.09s ease-in;
+    -o-transition: all 0.09s ease-in;
+    transition: all 0.09s ease-in;
+    overflow: hidden;
+}
+
+ul.solarsystem li {
+    text-indent: -9999px;
+    display: block;
+    position: absolute;
+    border: 2px solid #ffffff38;
+    /*    opacity: 0.7;*/
+}
+
+ul.solarsystem li span {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+ul.solarsystem li.active {
+    border-color: #aa4200;
+}
+
+ul.solarsystem li.active.sun,
+ul.solarsystem li.active span {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+ul.solarsystem li.active.sun span,
+ul.solarsystem li.active.earth .moon {
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+ul.solarsystem li.sun {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #fc3;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.22, rgb(204, 153, 0)),
+            color-stop(1, rgb(255, 219, 112)));
+    background-image: -moz-linear-gradient(center bottom,
+            rgb(204, 153, 0) 22%,
+            rgb(255, 219, 112) 100%);
+    top: 302px;
+    left: 462px;
+    border: none;
+    -webkit-box-shadow: 0 0 50px #c90;
+    -moz-box-shadow: 0 0 50px #c90;
+    box-shadow: 0 0 50px #c90;
+    z-index: 100;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+ul.solarsystem li.sun span {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+ul.solarsystem li.mercury {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 52px;
+    -moz-border-radius: 52px;
+    border-radius: 52px;
+    top: 270px;
+    left: 430px;
+    z-index: 99;
+}
+
+ul.solarsystem li.mercury span {
+    background: #b6bac5;
+    top: 10px;
+    left: 10px;
+}
+
+ul.solarsystem li.venus {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 82px;
+    -moz-border-radius: 82px;
+    border-radius: 82px;
+    top: 240px;
+    left: 400px;
+    z-index: 98;
+}
+
+ul.solarsystem li.venus span {
+    background: #bf8639;
+    top: 118px;
+    left: 5px;
+}
+
+ul.solarsystem li.earth {
+    width: 220px;
+    height: 220px;
+    -webkit-border-radius: 112px;
+    -moz-border-radius: 112px;
+    border-radius: 112px;
+    top: 210px;
+    left: 370px;
+    z-index: 97;
+}
+
+ul.solarsystem li.earth span {
+    background: #06c;
+    top: 56px;
+    left: 5px;
+}
+
+ul.solarsystem li.earth span.moon {
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background: #ccc;
+    top: 12px;
+    left: 12px;
+}
+
+ul.solarsystem li.mars {
+    width: 280px;
+    height: 280px;
+    -webkit-border-radius: 142px;
+    -moz-border-radius: 142px;
+    border-radius: 142px;
+    top: 180px;
+    left: 340px;
+    z-index: 96;
+}
+
+ul.solarsystem li.mars span {
+    background: #aa4200;
+    top: 0px;
+    left: 175px;
+}
+
+ul.solarsystem li.asteroids_meteorids {
+    top: 155px;
+    left: 315px;
+    z-index: 1;
+    background: url(http://neography.com/experiment/circles/solarsystem/asteroids_meteorids.png) no-repeat 0 0;
+    width: 330px;
+    height: 330px;
+    -webkit-border-radius: 165px;
+    -moz-border-radius: 165px;
+    border-radius: 165px;
+    border: none;
+}
+
+ul.solarsystem li.jupiter {
+    width: 340px;
+    height: 340px;
+    -webkit-border-radius: 172px;
+    -moz-border-radius: 172px;
+    border-radius: 172px;
+    top: 150px;
+    left: 310px;
+    z-index: 95;
+}
+
+ul.solarsystem li.jupiter span {
+    background: #e0ae6f;
+    top: 67px;
+    left: 24px;
+}
+
+ul.solarsystem li.saturn {
+    width: 400px;
+    height: 400px;
+    -webkit-border-radius: 202px;
+    -moz-border-radius: 202px;
+    border-radius: 202px;
+    top: 120px;
+    left: 280px;
+    z-index: 94;
+}
+
+ul.solarsystem li.saturn span {
+    background: #dfd3a9;
+    top: 24px;
+    left: 300px;
+}
+
+ul.solarsystem li.saturn span.ring {
+    width: 12px;
+    height: 12px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: none;
+    border: 2px solid #5a4e34;
+    left: -3px;
+    top: -3px;
+    -webkit-transform: skewY(50deg);
+    -moz-transform: skewY(50deg);
+    -o-transform: skewY(50deg);
+    transform: skewY(50deg);
+}
+
+ul.solarsystem li.uranus {
+    width: 460px;
+    height: 460px;
+    -webkit-border-radius: 232px;
+    -moz-border-radius: 232px;
+    border-radius: 232px;
+    top: 90px;
+    left: 250px;
+    z-index: 93;
+}
+
+ul.solarsystem li.uranus span {
+    background: #82b3d1;
+    top: 7px;
+    left: 300px;
+}
+
+ul.solarsystem li.neptune {
+    width: 520px;
+    height: 520px;
+    -webkit-border-radius: 262px;
+    -moz-border-radius: 262px;
+    border-radius: 262px;
+    top: 60px;
+    left: 220px;
+    z-index: 92;
+}
+
+ul.solarsystem li.neptune span {
+    background: #77c2ec;
+    top: 0px;
+    left: 200px;
+}
+
+ul.solarsystem li.pluto {
+    width: 580px;
+    height: 580px;
+    -webkit-border-radius: 292px;
+    -moz-border-radius: 292px;
+    border-radius: 292px;
+    top: 30px;
+    left: 190px;
+    z-index: 91;
+}
+
+ul.solarsystem li.pluto span {
+    background: #7c6a5c;
+    top: 79px;
+    left: 79px;
+}
+
+
+/* CSS3 Animations */
+ul.solarsystem li {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: orbit;
+
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-name: orbit;
+}
+
+ul.solarsystem li.earth span {
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: moon;
+
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -moz-animation-name: moon;
+}
+
+ul.solarsystem li.mercury {
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+}
+
+ul.solarsystem li.venus {
+    -webkit-animation-duration: 8s;
+    -moz-animation-duration: 8s;
+}
+
+ul.solarsystem li.earth {
+    -webkit-animation-duration: 12s;
+    -moz-animation-duration: 12s;
+}
+
+ul.solarsystem li.earth span {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+}
+
+ul.solarsystem li.mars {
+    -webkit-animation-duration: 20s;
+    -moz-animation-duration: 20s;
+}
+
+ul.solarsystem li.asteroids_meteorids {
+    -webkit-animation-duration: 50s;
+    -moz-animation-duration: 50s;
+}
+
+ul.solarsystem li.jupiter {
+    -webkit-animation-duration: 30s;
+    -moz-animation-duration: 30s;
+}
+
+ul.solarsystem li.saturn {
+    -webkit-animation-duration: 60s;
+    -moz-animation-duration: 60s;
+}
+
+ul.solarsystem li.uranus {
+    -webkit-animation-duration: 70s;
+    -moz-animation-duration: 70s;
+}
+
+ul.solarsystem li.neptune {
+    -webkit-animation-duration: 100s;
+    -moz-animation-duration: 100s;
+}
+
+ul.solarsystem li.pluto {
+    -webkit-animation-duration: 120s;
+    -moz-animation-duration: 120s;
+}
+
+@-webkit-keyframes orbit {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-webkit-keyframes moon {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes orbit {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+@-moz-keyframes moon {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+
+    to {
+        -moz-transform: rotate(360deg)
+    }
+}
+
+/*ul.solarsystem:hover li {-webkit-animation-play-state: paused;} */
+
+.lot {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+.barricade {
+    font-size: xxx-large;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    text-align: center;
+    animation: blink 10s infinite;
+    -webkit-animation: blink 5s infinite;
+}
+
+@-webkit-keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+.flight {
+    z-index: -20;
+}
+
+.plane {
+    margin-top: 7px;
+    font-size: xxx-large;
+    z-index: 0;
+
+}
+
+.iss {
+    z-index: 3;
+}
+
+.road {
+    font-size: xx-large;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+
+.city {
+    width: 700%;
+    height: 40vh;
+    background-image: url('images/cityimage.webp');
+    opacity: 0.7;
+    background-size: contain;
+    background-position: center;
+    animation: animate 90s linear infinite;
+    margin-top: -50px;
+    overflow:hidden;
+}
+
+@keyframes animate {
+    100% {
+        transform: translateX(-3400px);
+    }
+}
+
+.redcar {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.aeroplane {
+    display: block;
+    width: 20px;
+    height: 30px;
+}
+
+.aeroplane img {
+    width: 20px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.gap {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.end {
+    width: 700%;
+    height: 17vh;
+    background-image: url('https://www.freepnglogos.com/uploads/caution-tape-png/caution-tape-caution-signs-and-police-tape-vector-thumb-roblox-40.png');
+    opacity: 0.7;
+    background-size: contain;
+    background-position: center;
+    animation: animate 100s linear infinite;
+}
+
