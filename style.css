@@ -4,6 +4,11 @@ html {
     width: 140%;
 }
 
+::selection{
+    color:#000;
+    background: yellow;
+}    
+
 *{
     margin-top: 0;
 }
