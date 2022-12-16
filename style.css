@@ -19,6 +19,7 @@ header {
 }
 
 body {
+    font-size: xx-large;
     margin-left: 20px;
     font-family: 'Courier New';
     min-height: 100vh;
