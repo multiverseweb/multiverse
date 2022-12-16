@@ -1006,7 +1006,7 @@ ul.solarsystem li.pluto {
     background-size: contain;
     background-position: center;
     animation: animate 90s linear infinite;
-    margin-top: -50px;
+    margin-top: -130px;
     overflow:hidden;
 }
 
