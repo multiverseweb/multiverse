@@ -211,7 +211,7 @@ a:hover {
 
 .text {
     text-align: justify;
-    font-size: medium;
+    font-size: large;
     margin-left: 15px;
     margin-right: 15px;
     z-index: 3;
@@ -233,14 +233,14 @@ a:hover {
 
 .textright {
     text-align: justify;
-    font-size: medium;
+    font-size: large;
     margin-left: 100px;
     margin-right: 15px;
 }
 
 .textleft {
     text-align: justify;
-    font-size: medium;
+    font-size: large;
     margin-right: 100px;
     margin-left: 15px;
 }
