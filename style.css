@@ -54,6 +54,7 @@ body {
 
 .circle.cir{
     position:absolute;
+    top:15%;
     left:13%;
     height:75px;
     width:75px;
@@ -65,58 +66,62 @@ body {
   }
  
   .circle.one {
-  border: 15px solid;
-  top: -27px;
-  left: -27px;
-  position: absolute;
-  border-color: rgba(200,200,255,0.3) rgba(200,200,255,0.3) rgba(0,0,0,0) rgba(0,0,0,0);
-  border-radius: 50%;
-  margin: 0px;
-  height: 100px;
-  width: 100px;
+    border: 15px solid;
+    top: -27px;
+    left: -27px;
+    position: absolute;
+    border-color: rgba(200,200,255,0.3) rgba(200,200,255,0.3) rgba(0,0,0,0) rgba(0,0,0,0);
+    border-radius: 50%;
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    z-index:-1;
+      
+     animation: move 10s ease infinite;
+    -moz-animation: move 10s ease infinite;
+    -webkit-animation: move 10s ease infinite;
+    -o-animation: move 10s ease infinite;
+    }
     
-   animation: move 10s ease infinite;
-  -moz-animation: move 10s ease infinite;
-  -webkit-animation: move 10s ease infinite;
-  -o-animation: move 10s ease infinite;
-  }
-  
-  .circle.two {
-  border: 3px dotted;
-  padding: 0px;
-  margin: 0px;
-  border-color: rgba(68,123,130,0.7) rgba(0,0,0,0);
-  border-radius: 50%;
-  top: -86px;
-  left: -40px;
-  height: 150px;
-  width: 150px;
-  position:relative;  
+    .circle.two {
+    border: 3px dotted;
+    padding: 0px;
+    margin: 0px;
+    border-color: rgba(68,123,130,0.7) rgba(0,0,0,0);
+    border-radius: 50%;
+    top: -76px;
+    left: -40px;
+    height: 150px;
+    width: 150px;
+    position:relative;  
+      
+    animation: move 15s ease infinite;
+    -moz-animation: move 15s ease infinite;
+    -webkit-animation: move 15s ease infinite;
+    -o-animation: move 15s ease infinite;
+    }
     
-  animation: move 15s ease infinite;
-  -moz-animation: move 15s ease infinite;
-  -webkit-animation: move 15s ease infinite;
-  -o-animation: move 15s ease infinite;
-  }
-  
-  
-  .circle.three {
-  color: #000;
-  border: 25px solid;
-  padding: 0px;
-  margin: 10px;
-  position: absolute;
-  border-color: rgba(255,255,255,0.7) rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
-  border-radius: 50%;
-  top: -6px;
-  left: -6px;
-  height: 90px;
-  width: 90px;
-  animation: move 25s ease infinite;
-  -moz-animation: move 25s ease infinite;
-  -webkit-animation: move 25s ease infinite;
-  -o-animation: move 25s ease infinite;
-  }
+    
+    .circle.three {
+    color: #000;
+    border: 25px solid;
+    padding: 0px;
+    margin: 10px;
+    position: absolute;
+    z-index:-1;
+    border-color: rgba(255,255,255,0.7) rgba(0,0,0,0) rgba(0,0,0,0) rgba(0,0,0,0);
+    border-radius: 50%;
+    top: -6px;
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    height: 90px;
+    width: 90px;
+    animation: move 25s ease infinite;
+    -moz-animation: move 25s ease infinite;
+    -webkit-animation: move 25s ease infinite;
+    -o-animation: move 25s ease infinite;
+    }
    
   @keyframes move
   {
