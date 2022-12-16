@@ -162,7 +162,7 @@ a:link {
 }
 
 a:visited {
-    color: cyan
+    color: green
 }
 
 a:hover {
@@ -498,6 +498,8 @@ textarea:focus {
 
 .clearfix {
     z-index: 1;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .solarsystem {
