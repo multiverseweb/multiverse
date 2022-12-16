@@ -9,6 +9,7 @@ html {
 }
 
 header {
+    margin-top: 1px;
     position: fixed;
 }
 
