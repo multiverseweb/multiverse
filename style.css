@@ -1,7 +1,6 @@
 html {
     scroll-behavior: smooth;
     height: 100%;
-    min-width: screen.width;
 }
 
 *{
