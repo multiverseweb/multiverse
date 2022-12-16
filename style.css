@@ -8,6 +8,10 @@ html {
     margin-top: 0;
 }
 
+header {
+    position: fixed;
+}
+
 body {
     margin-left: 10px;
     font-family: 'Courier New';
