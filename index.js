@@ -1,1 +1,1 @@
-background.style.width = screen.width;
+background.style.width = "screen.width";
