@@ -254,9 +254,11 @@ a:hover {
     display: flex;
     float: left;
     margin-left: 10%;
+    font-size: large;
 }
 
 .navbar {
+    font-size: large;
     margin-top: 180px;
     background-color: #000000de;
     border-radius: 10px;
