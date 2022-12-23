@@ -31,7 +31,6 @@ header {
     color: cyan; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 20px; /* Some padding */
-    padding-bottom:20px;
     border-radius: 10px; /* Rounded corners */
     font-size: xxx-large; /* Increase font size */
   }
