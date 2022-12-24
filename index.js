@@ -22,4 +22,13 @@ function myFunction() {
   document.getElementById("display").style.color = "black";
 document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
    document.getElementsById("display").style.fontWeight = "bold";
-}
+document.getElementById("dark").style.display = "none";
+    document.getElementById("night").style.display = "flex";
+  }
+
+  function darkFunction() {
+    document.getElementsByTagName("body")[0].style.backgroundColor= "black";
+    document.getElementsByTagName("body")[0].style.color = "white";
+    document.getElementById("night").style.display = "none";
+    document.getElementById("dark").style.display = "flex";
+  }
