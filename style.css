@@ -27,7 +27,7 @@ header {
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
     background-color: black; /* Set a background color */
-    color: cyan; /* Text color */
+    color: yellow; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 20px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -35,18 +35,18 @@ header {
   }
   
   #dark:hover {
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 50px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 200px #03e9f4;
+    background: yellow;
+    color: black;
+    box-shadow: 0 0 50px yellow
+        0 0 25px yellow,
+        0 0 50px yellow,
+        0 0 200px yellow;
   }
 
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
-    bottom: 130px; /* Place the button at the bottom of the page */
+    bottom: 140px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
