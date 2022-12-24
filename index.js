@@ -20,5 +20,5 @@ function topFunction() {
 
 function myFunction() {
   document.getElementById("display").style.color = "black";
-document.getElementById("display").style.backgroumdColor = "white";
+document.getElementById("display").style.backgroundColor = "white";
 }
