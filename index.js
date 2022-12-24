@@ -20,5 +20,6 @@ function topFunction() {
 
 function myFunction() {
   document.getElementById("display").style.color = "black";
-document.getElementById("display").style.backgroundColor = "white";
+document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
+   document.getElementsById("display").style.fontWeight = "bold";
 }
