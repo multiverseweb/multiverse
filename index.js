@@ -27,7 +27,7 @@ document.getElementById("dark").style.display = "none";
   }
 
   function darkFunction() {
-    document.getElementsByTagName("body")[0].style.backgroundColor= "black";
+    document.getElementsByTagName("body")[0].style.backgroundColor= "rgb(20, 20, 20)";
     document.getElementsByTagName("body")[0].style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
