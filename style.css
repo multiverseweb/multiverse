@@ -45,6 +45,7 @@ header {
   }
 
 body {
+    color: white;
     font-size: x-large;
     margin-left: 27px;
     font-family: 'Courier New';
