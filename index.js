@@ -20,15 +20,15 @@ function topFunction() {
 
 function myFunction() {
   document.getElementById("display").style.color = "black";
-document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
-   document.getElementsById("display").style.fontWeight = "bold";
-document.getElementById("dark").style.display = "none";
-    document.getElementById("night").style.display = "flex";
+  document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
+  document.getElementById("display").style.fontWeight = "bold";
+  document.getElementById("dark").style.display = "none";
+  document.getElementById("night").style.display = "flex";
   }
 
   function darkFunction() {
-    document.getElementsByTagName("body").style.backgroundColor= "rgb(20, 20, 20)";
-    document.getElementsByTagName("body").style.color = "white";
+    document.getElementsByTagName("body").style.backgroundColor= "rgb(7,7,7)";
+    document.getElementByTagName("body").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
   }
