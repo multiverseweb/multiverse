@@ -8,7 +8,7 @@ html {
     position: fixed;
     inset: 0;
     z-index: 9998;
-    background-color: rgb(15, 15, 15);
+    background-color: black;
     display: grid;
     place-items:center;
     transition: opacity 1s,visibility 1s;
@@ -25,12 +25,12 @@ html {
 }    
 
 .glass{
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.116);
     -webkit-backdrop-filter: blur(1px);
     backdrop-filter: blur(1px);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 *{
