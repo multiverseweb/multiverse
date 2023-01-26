@@ -310,7 +310,7 @@ a:hover {
 
 .text {
     text-align: justify;
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-left: 15px;
     margin-right: 15px;
     z-index: 3;
@@ -334,14 +334,14 @@ a:hover {
 
 .textright {
     text-align: justify;
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-left: 100px;
     margin-right: 15px;
 }
 
 .textleft {
     text-align: justify;
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-right: 100px;
     margin-left: 15px;
 }
@@ -355,11 +355,11 @@ a:hover {
     display: flex;
     float: left;
     margin-left: 10%;
-    font-size: x-large;
+    font-size: xxx-large;
 }
 
 .navbar {
-    font-size: xx-large;
+    font-size: xxx-large;
     margin-top: 180px;
     background-color: #000000de;
     border-radius: 10px;
