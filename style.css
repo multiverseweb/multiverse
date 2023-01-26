@@ -124,7 +124,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: rgb(11,11,11);
+    background: rgb(8,8,8);
     background-image: linear-gradient(to right, transparent 39px, rgba(65, 65, 65, 0.607) 1px),
         linear-gradient(to bottom, transparent 39px, rgba(65, 65, 65, 0.605) 1px);
     background-size: 40px 40px;
