@@ -11,7 +11,7 @@ html {
     background-color: rgb(15, 15, 15);
     display: grid;
     place-items:center;
-    transition: opacity 5s,visibility 5s;
+    transition: opacity 1s,visibility 1s;
 }
 
 .fade{
