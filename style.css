@@ -366,7 +366,7 @@ a:hover {
     position:relative;
     width: 100%;
     transition: top 0.3s;
-    z-index: -200;
+    z-index: 9999;
 }
 
 .navbar ul {
