@@ -354,8 +354,7 @@ a:hover {
 .contact {
     display: flex;
     float: left;
-    margin-left: 10%;
-    font-size: xxx-large;
+    padding-left: 40px;
 }
 
 .navbar {
@@ -1168,14 +1167,15 @@ ul.solarsystem li.pluto {
     padding: 20px; /* Some padding */
     border-radius: 10px;
     max-width: fit-content;
+    max-height:110px;
   }
   
   .instagram:hover {
-    background: pink;
-    box-shadow: 0 0 50px pink,
-        0 0 25px pink,
-        0 0 50px pink,
-        0 0 200px pink;
+    background: #ff0066;
+    box-shadow: 0 0 50px #ff0066,
+        0 0 25px #ff0066,
+        0 0 50px #ff0066,
+        0 0 200px #ff0066;
   }
 
   .mail {
@@ -1185,6 +1185,7 @@ ul.solarsystem li.pluto {
     padding: 20px; /* Some padding */
     border-radius: 10px;
     max-width: fit-content;
+      max-height:110px;
   }
   
   .mail:hover {
@@ -1201,6 +1202,7 @@ ul.solarsystem li.pluto {
     padding: 20px; /* Some padding */
     border-radius: 10px;
     max-width: fit-content;
+      max-height:110px;
   }
   
   .linkedin:hover {
@@ -1217,6 +1219,7 @@ ul.solarsystem li.pluto {
     padding: 20px; /* Some padding */
     border-radius: 10px;
     max-width: fit-content;
+      max-height:110px;
   }
   
   .whatsapp:hover {
@@ -1233,13 +1236,31 @@ ul.solarsystem li.pluto {
     padding: 20px; /* Some padding */
     border-radius: 10px;
     max-width: fit-content;
+    max-height:110px;
   }
   
   .github:hover {
-    background: purple;
-    box-shadow: 0 0 50px purple,
-        0 0 25px purple,
-        0 0 50px purple,
-        0 0 200px purple;
+    background: #6600ff;
+    box-shadow: 0 0 50px #6600ff,
+        0 0 25px #6600ff,
+        0 0 50px #6600ff,
+        0 0 200px #6600ff;
+  }
+
+.numista {
+    background-color: black; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+    max-height:110px;
+  }
+  
+  .numista:hover {
+    background: 9999ff;
+    box-shadow: 0 0 50px 9999ff,
+        0 0 25px 9999ff,
+        0 0 50px 9999ff,
+        0 0 200px 9999ff;
   }
 
