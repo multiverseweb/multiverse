@@ -136,7 +136,7 @@ body {
 }
 
 .multiverse{
-    font-size: xxx-large;
+    font-size: 60px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -154,7 +154,7 @@ body {
     display: flex;
     float: left;
     padding-left: 20%;
-    margin-left: 62%;
+    margin-right:30px;
     position: relative;
     color: #000;
     z-index: 200;
