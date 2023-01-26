@@ -1161,3 +1161,85 @@ ul.solarsystem li.pluto {
     margin-right:-100%;
 }
 
+.instagram {
+    background-color: black; /* Set a background color */
+    color: cyan; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+  }
+  
+  .instagram:hover {
+    background: pink;
+    box-shadow: 0 0 50px pink,
+        0 0 25px pink,
+        0 0 50px pink,
+        0 0 200px pink;
+  }
+
+  .mail {
+    background-color: black; /* Set a background color */
+    color: cyan; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+  }
+  
+  .mail:hover {
+    background: red;
+    box-shadow: 0 0 50px red,
+        0 0 25px red,
+        0 0 50px red,
+        0 0 200px red;
+  }
+
+  .linkedin {
+    background-color: black;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+  }
+  
+  .linkedin:hover {
+    background: blue;
+    box-shadow: 0 0 50px blue,
+        0 0 25px blue,
+        0 0 50px blue,
+        0 0 200px blue;
+  }
+
+  .whatsapp {
+    background-color: black; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+  }
+  
+  .whatsapp:hover {
+    background: green;
+    box-shadow: 0 0 50px green,
+        0 0 25px green,
+        0 0 50px green,
+        0 0 200px green;
+  }
+
+.github {
+    background-color: black; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 20px; /* Some padding */
+    border-radius: 10px;
+    max-width: fit-content;
+  }
+  
+  .github:hover {
+    background: purple;
+    box-shadow: 0 0 50px purple,
+        0 0 25px purple,
+        0 0 50px purple,
+        0 0 200px purple;
+  }
+
