@@ -277,11 +277,12 @@ a:hover {
 
 
 .center {
+    z-index:1;
     display: block;
     margin-top: -20px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.8;
+    opacity: 0.9;
     position: relative;
 }
 
@@ -298,8 +299,7 @@ a:hover {
 }
 
 
-.about,
-.heading {
+.about{
     margin-left: 0px;
     margin-right: 0px;
 }
