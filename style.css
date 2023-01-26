@@ -136,7 +136,7 @@ body {
 }
 
 .multiverse{
-    font-size: 60px;
+    font-size: 80px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -153,8 +153,7 @@ body {
 .move{
     display: flex;
     float: left;
-    padding-left: 20%;
-    margin-right:30px;
+    right:30px;
     position: relative;
     color: #000;
     z-index: 200;
@@ -1085,7 +1084,7 @@ ul.solarsystem li.pluto {
 
 .plane {
     margin-top: 550px;
-    font-size: xxx-large;
+    font-size: 60px;
     z-index: 0;
 
 }
