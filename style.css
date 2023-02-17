@@ -39,7 +39,7 @@ html {
 }
 
 nav{
-    z-index:999;
+    z-index:99;
 }
 
 header {
@@ -241,10 +241,10 @@ a:hover {
     margin-top: 180px;
     background-color: #000000de;
     border-radius: 10px;
-    position:relative;
+    position:fixed;
     width: 100%;
     transition: top 0.3s;
-    z-index: 999;
+    z-index: 99;
 }
 
 .navbar ul {
