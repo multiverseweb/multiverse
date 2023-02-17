@@ -148,7 +148,8 @@ body {
     padding-bottom: 50px;
     display: flex;
     float:left;
-    width: 100%;
+    width: 500%;
+    overflow-x:hidden;
     background-image: linear-gradient(30deg, rgb(33, 33, 33), rgb(66, 66, 66), rgb(33, 33, 33));
     z-index: 2;
 }
