@@ -1260,11 +1260,11 @@ ul.solarsystem li.pluto {
   }
   
   .numista:hover {
-    background: 9999ff;
-    box-shadow: 0 0 50px 9999ff,
-        0 0 25px 9999ff,
-        0 0 50px 9999ff,
-        0 0 200px 9999ff;
+    background: #9999ff;
+    box-shadow: 0 0 50px #9999ff,
+        0 0 25px #9999ff,
+        0 0 50px #9999ff,
+        0 0 200px #9999ff;
   }
 
 .web {
