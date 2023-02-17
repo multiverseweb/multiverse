@@ -38,6 +38,9 @@ html {
     margin-top: 0;
 }
 
+nav{
+    z-index:9999;
+}
 
 header {
     margin-top: 0px;
