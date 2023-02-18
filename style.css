@@ -120,7 +120,7 @@ header {
 
 #dark {
     position: fixed; /* Fixed/sticky position */
-    top: 280px; /* Place the button at the bottom of the page */
+    top: 300px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -144,7 +144,7 @@ header {
 
 #night {
     position: fixed; /* Fixed/sticky position */
-    top: 280px; /* Place the button at the bottom of the page */
+    top: 300px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -961,7 +961,7 @@ ul.solarsystem li.pluto {
 }
 
 .plane {
-    margin-top: 285px;
+    margin-top: 300px;
     font-size: 60px;
     z-index: 0;
 
