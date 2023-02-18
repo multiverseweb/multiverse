@@ -120,7 +120,7 @@ header {
 
 #dark {
     position: fixed; /* Fixed/sticky position */
-    top: 300px; /* Place the button at the bottom of the page */
+    top: 330px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -144,7 +144,7 @@ header {
 
 #night {
     position: fixed; /* Fixed/sticky position */
-    top: 300px; /* Place the button at the bottom of the page */
+    top: 330px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -236,6 +236,7 @@ a:hover {
 }
 
 .aboutus {
+    margin-top:360px;
     padding-top:12px;
     text-align: center;
 }
