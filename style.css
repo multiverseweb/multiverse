@@ -39,9 +39,7 @@ html {
     margin-top: 0;
 }
 
-/*
-
-nav{
+/*nav{
     z-index:99;
 }
 
@@ -118,8 +116,7 @@ header {
     100% {
         background: #101935ff;
     }
-}
-*/
+}*/
 
 #dark {
     position: fixed; /* Fixed/sticky position */
@@ -221,15 +218,15 @@ body {
 
 
 a:link {
-    color: cyan
+    color: cyan;
 }
 
 a:visited {
-    color: cyan
+    color: cyan;
 }
 
 a:hover {
-    color: yellow
+    color: yellow;
 }
 
 
