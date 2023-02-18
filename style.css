@@ -294,12 +294,18 @@ a:hover {
 }
 
 .contact {
+    
+    margin-left:5px;
+    margin-right:5px;
     display: flex;
     float: left;
     padding-left: 40px;
 }
 
 .contact-right {
+    
+    margin-left:5px;
+    margin-right:5px;
     display: flex;
     float: right;
     padding-right: 40px;
