@@ -39,6 +39,8 @@ html {
     margin-top: 0;
 }
 
+/*
+
 nav{
     z-index:99;
 }
@@ -47,6 +49,77 @@ header {
     margin-top: 0px;
     position: fixed;
 }
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    float:left;
+    width: 500%;
+    overflow-x:hidden;
+    background-image: linear-gradient(30deg, rgb(33, 33, 33), rgb(66, 66, 66), rgb(33, 33, 33));
+    z-index: 2;
+}
+
+.navbar {
+    font-size: xxx-large;
+    margin-top: 180px;
+    background-color: #000000de;
+    border-radius: 10px;
+    position:fixed;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 99;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar a:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 50px #03e9f4,
+        0 0 25px #03e9f4,
+        0 0 50px #03e9f4,
+        0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 24px;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+}
+
+
+@keyframes changeBg {
+    0% {
+        background: #101935ff;
+    }
+
+    25% {
+        background: #9ad4d6ff;
+    }
+
+    50% {
+        background: #101935ff;
+    }
+
+    75% {
+        background: #9ad4d6ff;
+    }
+
+    100% {
+        background: #101935ff;
+    }
+}
+*/
 
 #dark {
     position: fixed; /* Fixed/sticky position */
@@ -144,16 +217,7 @@ body {
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-.heading {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    float:left;
-    width: 500%;
-    overflow-x:hidden;
-    background-image: linear-gradient(30deg, rgb(33, 33, 33), rgb(66, 66, 66), rgb(33, 33, 33));
-    z-index: 2;
-}
+
 
 
 a:link {
@@ -238,64 +302,7 @@ a:hover {
     padding-left: 40px;
 }
 
-.navbar {
-    font-size: xxx-large;
-    margin-top: 180px;
-    background-color: #000000de;
-    border-radius: 10px;
-    position:fixed;
-    width: 100%;
-    transition: top 0.3s;
-    z-index: 99;
-}
 
-.navbar ul {
-    overflow: auto;
-}
-
-.navbar a:hover {
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 50px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 200px #03e9f4;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
-}
-
-.navbar li {
-    float: left;
-    list-style: none;
-    margin: 15px 24px;
-}
-
-.navbar li a {
-    padding: 3px 3px;
-    text-decoration: none;
-}
-
-
-@keyframes changeBg {
-    0% {
-        background: #101935ff;
-    }
-
-    25% {
-        background: #9ad4d6ff;
-    }
-
-    50% {
-        background: #101935ff;
-    }
-
-    75% {
-        background: #9ad4d6ff;
-    }
-
-    100% {
-        background: #101935ff;
-    }
-}
 
 
 form {
@@ -1163,4 +1170,87 @@ ul.solarsystem li.pluto {
         0 0 200px #008080;
   }
 
+
+
+.navbar {
+    margin-top: 160px;
+    background-color: rgb(143, 143, 143, 0.174);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition: top 0.3s;
+  }
+  
+  .navbar ul {
+    overflow: auto;
+    margin: 10px auto 0;
+    padding: 0;
+    list-style: none;
+    display: table;
+    width: 600px;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    display: table-cell;
+    position: relative;
+    padding: 0px 30px;
+    font-size: 30px;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    padding: 6px 30px;
+    position: relative;
+  }
+  
+  .navbar ul li a:after {
+    color: #fff;
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .navbar ul li a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  @media screen and (max-height: 300px) {
+    ul {
+      margin-top: 40px;
+    }
+}
+
+.heading {
+    font-size: 80px;
+    background-color: rgb(143, 143, 143, 0.174);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    color: white;
+  }
+  
+  .heading img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.174;
+  }
 
