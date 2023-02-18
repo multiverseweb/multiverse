@@ -236,8 +236,7 @@ a:hover {
 }
 
 .aboutus {
-    margin-top:360px;
-    padding-top:12px;
+    margin-top:12px;
     text-align: center;
 }
 
@@ -251,6 +250,7 @@ a:hover {
 
 
 .about{
+    margin-top:360px;
     margin-left: 0px;
     margin-right: 0px;
 }
