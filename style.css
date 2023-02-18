@@ -236,6 +236,7 @@ a:hover {
 }
 
 .aboutus {
+    padding-top:12px;
     text-align: center;
 }
 
@@ -291,6 +292,12 @@ a:hover {
     display: flex;
     float: left;
     padding-left: 40px;
+}
+
+.contact-right {
+    display: flex;
+    float: right;
+    padding-right: 40px;
 }
 
 
