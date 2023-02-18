@@ -1171,7 +1171,7 @@ ul.solarsystem li.pluto {
 
 .navbar {
     font-family:century gothic;
-    margin-top: 160px;
+    margin-top: 190px;
     background-color: rgb(143, 143, 143, 0.174);
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
@@ -1234,6 +1234,7 @@ ul.solarsystem li.pluto {
 }
 
 .heading {
+    padding-top:30px;
     font-family:century gothic;
     font-size: 80px;
     background-color: rgb(143, 143, 143, 0.174);
