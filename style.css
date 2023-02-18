@@ -236,7 +236,7 @@ a:hover {
 }
 
 .aboutus {
-    margin-top:12px;
+    margin-top:0px;
     text-align: center;
 }
 
@@ -250,7 +250,7 @@ a:hover {
 
 
 .about{
-    margin-top:360px;
+    margin-top:10px;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -969,7 +969,7 @@ ul.solarsystem li.pluto {
 }
 
 .plane {
-    margin-top: 300px;
+    margin-top: 340px;
     font-size: 60px;
     z-index: 0;
 
