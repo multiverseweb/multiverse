@@ -120,7 +120,7 @@ header {
 
 #dark {
     position: fixed; /* Fixed/sticky position */
-    top: 220px; /* Place the button at the bottom of the page */
+    top: 280px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -144,7 +144,7 @@ header {
 
 #night {
     position: fixed; /* Fixed/sticky position */
-    top: 220px; /* Place the button at the bottom of the page */
+    top: 280px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -208,12 +208,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
-.multiverse{
-    font-size: 80px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
 
 
 
@@ -1170,11 +1164,12 @@ ul.solarsystem li.pluto {
 
 
 .navbar {
+    margin-left:-27px;
     font-family:century gothic;
-    margin-top: 190px;
-    background-color: rgb(143, 143, 143, 0.174);
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
+    margin-top: 240px;
+    background-color: rgb(143, 143, 143, 0.194);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -1245,6 +1240,7 @@ ul.solarsystem li.pluto {
     overflow: hidden;
     z-index: 100;
     color: white;
+    margin-left:-27px;
   }
   
   .heading img{
