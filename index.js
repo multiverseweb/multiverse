@@ -41,7 +41,7 @@ function myFunction() {
     document.getElementById("dark").style.display = "flex";
   }
 
-function myFunction() {
+function cpyFunction() {
   // Get the text field
   var copyText = document.getElementById("myInput");
 
