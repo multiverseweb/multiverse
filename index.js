@@ -55,3 +55,12 @@ function cpyFunction() {
   // Alert the copied text
   alert("Copied the link: " + copyText.value);
 }
+
+
+function showText() {
+	document.getElementById('imgtext').style.display = "block";
+}
+
+function hideText() {
+	document.getElementById('imgtext').style.display = "none";
+}
