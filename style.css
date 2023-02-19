@@ -1204,12 +1204,12 @@ ul.solarsystem li.pluto {
 
 #astroimage {
     height: 400px;
-    width: 300px;
+    width: 400px;
   }
   
   #imgtext {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
     margin-top:20%;
