@@ -45,84 +45,6 @@ html {
     margin-top: 0;
 }
 
-/*nav{
-    z-index:99;
-}
-
-header {
-    margin-top: 0px;
-    position: fixed;
-}
-
-.heading {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    float:left;
-    width: 500%;
-    overflow-x:hidden;
-    background-image: linear-gradient(30deg, rgb(33, 33, 33), rgb(66, 66, 66), rgb(33, 33, 33));
-    z-index: 2;
-}
-
-.navbar {
-    font-size: xxx-large;
-    margin-top: 180px;
-    background-color: #000000de;
-    border-radius: 10px;
-    position:fixed;
-    width: 100%;
-    transition: top 0.3s;
-    z-index: 99;
-}
-
-.navbar ul {
-    overflow: auto;
-}
-
-.navbar a:hover {
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 0 0 50px #03e9f4,
-        0 0 25px #03e9f4,
-        0 0 50px #03e9f4,
-        0 0 200px #03e9f4;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
-}
-
-.navbar li {
-    float: left;
-    list-style: none;
-    margin: 15px 24px;
-}
-
-.navbar li a {
-    padding: 3px 3px;
-    text-decoration: none;
-}
-
-
-@keyframes changeBg {
-    0% {
-        background: #101935ff;
-    }
-
-    25% {
-        background: #9ad4d6ff;
-    }
-
-    50% {
-        background: #101935ff;
-    }
-
-    75% {
-        background: #9ad4d6ff;
-    }
-
-    100% {
-        background: #101935ff;
-    }
-}*/
 
 #dark {
     position: fixed; /* Fixed/sticky position */
@@ -1281,9 +1203,8 @@ ul.solarsystem li.pluto {
 
 
 #astroimage {
-    margin-top: 200px;
-    height: 300px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
   }
   
   #imgtext {
