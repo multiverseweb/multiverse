@@ -1211,7 +1211,6 @@ ul.solarsystem li.pluto {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     color: white;
-    display: none;
     text-align: center;
     margin-top:20%;
   }
@@ -1224,7 +1223,7 @@ ul.solarsystem li.pluto {
 .xop-grid{
   margin: 20px 0 0 0;
   padding: 0;
-  list-style: one;
+  list-style: none;
   display: block;
   text-align: center;
   width: 100%;
