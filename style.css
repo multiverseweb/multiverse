@@ -5,6 +5,11 @@ html {
     width: 140%;
 }
 
+.multiverselink{
+  text-decoration:none;
+  color:white;
+}
+
 
 .wrapper{
     position: fixed;
