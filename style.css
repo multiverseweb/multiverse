@@ -5,6 +5,14 @@ html {
     width: 140%;
 }
 
+a:hover{
+  color:#00000000;
+}
+a:active{
+  color:#00000000;
+}
+
+
 .multiverselink{
   text-decoration:none;
   color:white;
