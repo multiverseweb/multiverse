@@ -1250,7 +1250,7 @@ ul.solarsystem li.pluto {
   transition: 0.3s ease-in-out;
 }
 .xop-box:hover{
-  transform: scale(1.25);
+  transform: scale(1.11);
 }
 .xop-img-1{
   background-image:url('IMG_20230220_033116.jpg');
