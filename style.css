@@ -133,7 +133,7 @@ a:active{
 body {
     color: white;
     font-size: 16px;
-    font-family: 'Courier New';
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     background: rgb(8,8,8);
@@ -1026,7 +1026,7 @@ ul.solarsystem li.pluto {
 
 .navbar {
     margin-left:-8px;
-    font-family:century gothic;
+    font-family:'Times New Roman', Times, serif;
     margin-top: 190px;
     background-color: rgb(143, 143, 143, 0.194);
     -webkit-backdrop-filter: blur(8px);
@@ -1092,7 +1092,7 @@ ul.solarsystem li.pluto {
 .heading {
     padding-bottom:30px;
     padding-top:20px;
-    font-family:century gothic;
+    font-family:'Times New Roman', Times, serif;
     font-size: 110px;
     background-color: rgb(143, 143, 143, 0.174);
     -webkit-backdrop-filter: blur(8px);
