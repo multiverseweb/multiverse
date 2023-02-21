@@ -1279,7 +1279,7 @@ ul.solarsystem li.pluto {
 
 
 @media(min-width:1000px){
-  #container{
+  .container{
     width:60%;
     margin-left: 20%;
   }
