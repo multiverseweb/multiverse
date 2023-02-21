@@ -1120,11 +1120,10 @@ ul.solarsystem li.pluto {
 
 
 #astroimage {
-    height: 400px;
+    height: 300px;
     width: 200%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -50%;
   }
   
   #imgtext {
