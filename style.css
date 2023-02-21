@@ -2,7 +2,7 @@ html {
     scroll-padding-top: 380px;
     scroll-behavior: smooth;
     height: 100%;
-    width: 140%;
+    width: 100%;
 }
 
 a:hover{
@@ -135,7 +135,6 @@ body {
     font-size: xx-large;
     margin-left: 27px;
     font-family: 'Courier New';
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background: rgb(8,8,8);
