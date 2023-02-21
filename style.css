@@ -1025,7 +1025,7 @@ ul.solarsystem li.pluto {
 
 
 .navbar {
-    margin-left:-27px;
+    margin-left:-8px;
     font-family:century gothic;
     margin-top: 190px;
     background-color: rgb(143, 143, 143, 0.194);
@@ -1102,7 +1102,7 @@ ul.solarsystem li.pluto {
     overflow: hidden;
     z-index: 100;
     color: white;
-    margin-left:-27px;
+    margin-left:-8px;
   }
   
   .heading img{
