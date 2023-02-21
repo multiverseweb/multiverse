@@ -1277,3 +1277,10 @@ ul.solarsystem li.pluto {
    text-decoration:  none;
 }
 
+
+@media(min-width:1000px){
+  #container{
+    width:60%;
+    margin-left: 20%;
+  }
+}
