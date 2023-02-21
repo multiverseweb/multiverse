@@ -1115,7 +1115,7 @@ ul.solarsystem li.pluto {
   
   .navbar ul {
     overflow: auto;
-    margin: 10px auto 0;
+    margin: 0px auto 0;
     padding: 0;
     list-style: none;
     display: table;
@@ -1126,8 +1126,8 @@ ul.solarsystem li.pluto {
   .navbar ul li {
     display: table-cell;
     position: relative;
-    padding: 0px 17px;
-    font-size: 60px;
+    padding: 0px 0px;
+    font-size: 40px;
   }
   
   .navbar ul li a {
