@@ -133,7 +133,6 @@ a:active{
 body {
     color: white;
     font-size: xx-large;
-    margin-left: 27px;
     font-family: 'Courier New';
     display: flex;
     flex-direction: column;
