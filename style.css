@@ -1275,7 +1275,7 @@ hr{
 .scale{
     display:flex;
     float: left;
-    margin-left: 30%;
+    margin-left: 10%;
     margin-top: 12px;
     font-size:20px;
 }
