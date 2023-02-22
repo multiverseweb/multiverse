@@ -27,7 +27,6 @@ function topFunction() {
 }
 
 function myFunction() {
-  document.getElementByClassName("glass").style.backgroundColor = "rgb(77,77,77,0.1)";
   document.getElementById("display").style.color = "black";
   document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
   document.getElementById("dark").style.display = "none";
