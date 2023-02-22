@@ -35,8 +35,8 @@ function myFunction() {
   }
 
   function darkFunction() {
-    document.getElementsByTagName("display").style.backgroundColor= "rgb(7,7,7)";
-    document.getElementByTagName("display").style.color = "white";
+    document.getElementById("display").style.backgroundColor= "rgb(7,7,7)";
+    document.getElementById("display").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
   }
