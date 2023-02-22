@@ -1273,6 +1273,7 @@ hr{
     margin-left: 140px;
 }
 .scale{
+    position:relative;
     display:flex;
     float: left;
     margin-left: 10%;
