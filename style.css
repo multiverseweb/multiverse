@@ -1276,6 +1276,6 @@ hr{
     display:flex;
     float: left;
     margin-left: 30%;
-    margin-top: 10px;
-    position: absolute;
+    margin-top: 12px;
+    font-size:20px;
 }
