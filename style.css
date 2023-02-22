@@ -66,8 +66,8 @@ a:active{
     background-color: black; /* Set a background color */
     color: yellow; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 20px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 1px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
     font-size: 60px; /* Increase font size */
   }
   
@@ -90,18 +90,18 @@ a:active{
     background-color: black; /* Set a background color */
     color: yellow; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 20px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    padding: 1px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
     font-size: 60px; /* Increase font size */
   }
   
   #night:hover {
-    background: blue;
+    background:#f2befa;
     color: black;
-    box-shadow: 0 0 50px blue,
-        0 0 25px blue,
-        0 0 50px blue,
-        0 0 200px blue;
+    box-shadow: 0 0 50px #f2befa,
+        0 0 25px #f2befa,
+        0 0 50px #f2befa,
+        0 0 200px #f2befa;
   }
 
 #myBtn {
