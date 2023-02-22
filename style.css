@@ -1276,8 +1276,8 @@ hr{
     position:relative;
     display:flex;
     float: left;
-    margin-left: 10%;
-    margin-top: 12px;
+    margin-left: 5%;
+    margin-top: 22px;
     font-size:20px;
 }
 
@@ -1286,5 +1286,5 @@ hr{
 }
 
 #scalemargin{
-    margin-top:60px;
+    margin-top:90px;
 }
