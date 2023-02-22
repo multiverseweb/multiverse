@@ -1029,7 +1029,7 @@ ul.solarsystem li.pluto {
 .navbar {
     margin-left:-8px;
     font-family:'Times New Roman', Times, serif;
-    margin-top: 170px;
+    margin-top: 200px;
     background-color: rgb(143, 143, 143, 0.194);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
@@ -1095,7 +1095,7 @@ ul.solarsystem li.pluto {
     padding-bottom:30px;
     padding-top:20px;
     font-family:'Times New Roman', Times, serif;
-    font-size: 90px;
+    font-size: 120px;
     background-color: rgb(143, 143, 143, 0.174);
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
