@@ -1290,3 +1290,7 @@ hr{
 #scalemargin{
     margin-top:90px;
 }
+
+.cells{
+    filter: invert(1);
+}
