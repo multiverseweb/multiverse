@@ -72,12 +72,12 @@ a:active{
   }
   
   #dark:hover {
-    background: yellow;
+    background: #f2befa;
     color: black;
-    box-shadow: 0 0 50px yellow,
-        0 0 25px yellow,
-        0 0 50px yellow,
-        0 0 200px yellow;
+    box-shadow: 0 0 50px #f2befa,
+        0 0 25px #f2befa,
+        0 0 50px #f2befa,
+        0 0 200px #f2befa;
   }
 
 #night {
@@ -96,12 +96,12 @@ a:active{
   }
   
   #night:hover {
-    background:#f2befa;
+    background:yellow;
     color: black;
-    box-shadow: 0 0 50px #f2befa,
-        0 0 25px #f2befa,
-        0 0 50px #f2befa,
-        0 0 200px #f2befa;
+    box-shadow: 0 0 50px yellow,
+        0 0 25px yellow,
+        0 0 50px yellow,
+        0 0 200px yellow;
   }
 
 #myBtn {
