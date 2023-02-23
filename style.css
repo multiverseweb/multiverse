@@ -59,7 +59,7 @@ a:active{
 #dark {
     position: fixed; /* Fixed/sticky position */
     top: 300px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -68,7 +68,7 @@ a:active{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 1px; /* Some padding */
     border-radius: 50%; /* Rounded corners */
-    font-size: 60px; /* Increase font size */
+    font-size: 70px; /* Increase font size */
   }
   
   #dark:hover {
@@ -83,7 +83,7 @@ a:active{
 #night {
     position: fixed; /* Fixed/sticky position */
     top: 300px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
+    right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
@@ -92,7 +92,7 @@ a:active{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 1px; /* Some padding */
     border-radius: 50%; /* Rounded corners */
-    font-size: 60px; /* Increase font size */
+    font-size: 70px; /* Increase font size */
   }
   
   #night:hover {
