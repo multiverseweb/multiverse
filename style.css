@@ -1223,14 +1223,6 @@ ul.solarsystem li.pluto {
    text-decoration:  none;
 }
 
-
-@media(min-width:1000px){
-  .containerii{
-    width:60%;
-    margin-left: 20%;
-  }
-}
-
 .link{
     font-size:15px;
     line-height:22px;
@@ -1312,4 +1304,18 @@ hr{
 
 .cells{
     filter: invert(1);
+}
+
+@media(min-width:384px){
+    .containerii{
+    width:130%;
+}
+}
+
+@media(min-width:1000px){
+  .containerii{
+    max-width:100%;
+    padding-left: 20%;
+      padding-right:20%;
+  }
 }
