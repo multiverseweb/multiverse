@@ -1398,4 +1398,8 @@ hr{
     width: 15px;
     margin-left: 90px;
 }
+    #icon{
+    height: 30px;
+    padding:0px; /* Some padding */
+}
 }
