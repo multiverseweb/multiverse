@@ -1402,4 +1402,18 @@ hr{
     height: 30px;
     padding:0px; /* Some padding */
 }
+    
+    .instagram:hover, .mail:hover, .linkedin:hover, .whatsapp:hover, .web:hover, .github:hover, .numista:hover, .excel:hover{
+    transition-duration: 0.5s;
+  }
+}
+
+
+@media(min-width:600px){
+    .imgleft{
+        height: 230px;
+      }
+      .imgright{
+        height: 230px;
+      }
 }
