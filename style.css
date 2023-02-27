@@ -1406,6 +1406,11 @@ hr{
     .instagram:hover, .mail:hover, .linkedin:hover, .whatsapp:hover, .web:hover, .github:hover, .numista:hover, .excel:hover{
     transition-duration: 0.5s;
   }
+    
+    .end{
+    width: 180%;
+    margin-left: -40%;
+  }
 }
 
 
