@@ -1436,9 +1436,9 @@ hr{
 
 @media(min-width:100px){
     .imgleft{
-        height: 270px;
+        height: 300px;
       }
       .imgright{
-        height: 270px;
+        height: 300px;
       }
 }
