@@ -1407,6 +1407,10 @@ hr{
     transition-duration: 0.5s;
   }
     
+    #myBtn:hover{
+        transition-duration: 0.5s;
+    }
+    
     .end{
     width: 180%;
     margin-left: -40%;
