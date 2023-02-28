@@ -1415,6 +1415,9 @@ hr{
     width: 180%;
     margin-left: -40%;
   }
+    .glass{
+        border-radius:20px;
+    }
 }
 
 
@@ -1429,8 +1432,13 @@ hr{
     .studyverse{
         margin-top:20px;
     }
-    
-    .glass{
-        border-radius:20px;
-    }
+}
+
+@media(min-width:100px){
+    .imgleft{
+        height: 270px;
+      }
+      .imgright{
+        height: 270px;
+      }
 }
