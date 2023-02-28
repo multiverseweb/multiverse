@@ -1429,4 +1429,8 @@ hr{
     .studyverse{
         margin-top:20px;
     }
+    
+    .glass{
+        border-radius:20px;
+    }
 }
