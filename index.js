@@ -27,6 +27,13 @@ function topFunction() {
 }
 
 function myFunction() {
+	  document.getElementById("glass").style.background = "rgba(44, 44, 44, 0.745)";
+  document.getElementById("glass1").style.background = "rgba(44, 44, 44, 0.745)";
+  document.getElementById("glass2").style.background = "rgba(44, 44, 44, 0.745)";
+  document.getElementById("glass3").style.background = "rgba(44, 44, 44, 0.745)";
+  document.getElementById("glass4").style.background = "rgba(44, 44, 44, 0.745)";
+  document.getElementById("heading").style.background = "rgba(24, 24, 24, 0.745)";
+  document.getElementById("navbar").style.background = "rgba(24, 24, 24, 0.745)";
   document.getElementById("display").style.color = "black";
   document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
   document.getElementById("dark").style.display = "none";
@@ -34,6 +41,13 @@ function myFunction() {
   }
 
   function darkFunction() {
+	  document.getElementById("glass").style.background = "rgba(200,200,200, 0.1)";
+	  document.getElementById("glass1").style.background = "rgba(200,200,200, 0.1)";
+	  document.getElementById("glass2").style.background = "rgba(200,200,200, 0.1)";
+	  document.getElementById("glass3").style.background = "rgba(200,200,200, 0.1)";
+	  document.getElementById("glass4").style.background = "rgba(200,200,200, 0.1)";
+	  document.getElementById("heading").style.background = "rgb(143, 143, 143, 0.174)";
+	  document.getElementById("navbar").style.background = "rgb(143, 143, 143, 0.174)";
     document.getElementById("display").style.backgroundColor= "rgb(7,7,7)";
     document.getElementById("display").style.color = "white";
     document.getElementById("night").style.display = "none";
