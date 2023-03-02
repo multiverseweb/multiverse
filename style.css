@@ -1316,7 +1316,8 @@ hr{
 .horizontal img {
     
     height: 600px;
-    padding-left: 40px;
+    padding-left: 30px;
+    padding-right:30px;
     scroll-snap-align: center;
         max-width: none;
         object-fit: contain;
