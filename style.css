@@ -1314,8 +1314,7 @@ hr{
       }
 
 .horizontal img {
-    
-    height: 700px;
+    height: 800px;
     padding-left: 30px;
     padding-right:30px;
     scroll-snap-align: center;
