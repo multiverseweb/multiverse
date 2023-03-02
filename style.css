@@ -1304,6 +1304,31 @@ hr{
     filter: invert(1);
 }
 
+.horizontal{
+    margin-top: 110px;
+        display: grid;
+        grid-auto-flow: column;
+        overflow-y: hidden;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+      }
+
+.horizontal img {
+    
+    height: 600px;
+    padding-left: 40px;
+    scroll-snap-align: center;
+        max-width: none;
+        object-fit: contain;
+        pointer-events: none;
+      }
+
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+
 @media(min-width:384px){
     .containerii{
     width:130%;
@@ -1418,6 +1443,10 @@ hr{
     .glass{
         border-radius:20px;
     }
+    
+    .horizontal img{
+    height: 100px;
+      }
 }
 
 
@@ -1432,6 +1461,10 @@ hr{
     .studyverse{
         margin-top:20px;
     }
+    
+    .horizontal img {
+        height: 500px;
+          }
 }
 
 @media(min-width:100px){
@@ -1442,3 +1475,4 @@ hr{
         height: 300px;
       }
 }
+
