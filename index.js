@@ -54,7 +54,8 @@ document.getElementById("country2").style.color = "black";
     document.getElementById("display").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
-
+document.getElementById("country").style.color = "white";
+document.getElementById("country2").style.color = "white";
   }
 
 function cpyFunction() {
