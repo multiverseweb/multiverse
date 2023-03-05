@@ -35,6 +35,7 @@ function myFunction() {
   document.getElementById("heading").style.background = "rgba(24, 24, 24, 0.745)";
   document.getElementById("navbar").style.background = "rgba(24, 24, 24, 0.745)";
   document.getElementById("display").style.color = "white";
+
   document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
   document.getElementById("dark").style.display = "none";
   document.getElementById("night").style.display = "flex";
@@ -52,6 +53,7 @@ function myFunction() {
     document.getElementById("display").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
+document.getElementById("country").style.color = "black";
   }
 
 function cpyFunction() {
