@@ -69,6 +69,7 @@ a:active{
     padding: 1px; /* Some padding */
     border-radius: 50%; /* Rounded corners */
     font-size: 70px; /* Increase font size */
+    transition-duration: 0.4s;
   }
   
   #dark:hover {
@@ -93,6 +94,7 @@ a:active{
     padding: 1px; /* Some padding */
     border-radius: 50%; /* Rounded corners */
     font-size: 70px; /* Increase font size */
+    transition-duration: 0.4s;
   }
   
   #night:hover {
@@ -121,6 +123,7 @@ a:active{
     padding-top: 0px;
     border-radius: 10px; /* Rounded corners */
     font-size: 100px; /* Increase font size */
+    transition-duration: 0.3s;
   }
   
   #myBtn:hover {
