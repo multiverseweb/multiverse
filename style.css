@@ -1240,7 +1240,6 @@ ul.solarsystem li.pluto {
   text-decoration: none;
   text-align: left;
     font-family:monospace;
-    margin-left: 15%;
 }
 
 .link:hover{
@@ -1253,7 +1252,6 @@ ul.solarsystem li.pluto {
 hr{
   margin-top: 10px;
   margin-bottom: 8px;
-  margin-left: 15%;
   color:rgb(25, 25, 25);
 }
 .end{
