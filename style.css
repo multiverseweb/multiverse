@@ -1235,8 +1235,8 @@ ul.solarsystem li.pluto {
 }
 
 .link{
-    font-size:25px;
-    line-height:52px;
+    font-size:22px;
+    line-height:50px;
   text-decoration: none;
   text-align: left;
     font-family:monospace;
@@ -1260,8 +1260,8 @@ hr{
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgb(32,32,32);
-    text-align: center;
-    font-size: 30px;
+    text-align: left;
+    font-size: 50px;
     margin-left:-10px;
 }
 
