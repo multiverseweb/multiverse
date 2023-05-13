@@ -166,17 +166,17 @@ body {
 .aboutus {
     margin-top:0px;
     text-align: center;
-    font-size:50px;
+    font-size:45px;
 }
 
 .headleft {
     text-align: left;
-    font-size:50px;
+    font-size:45px;
 }
 
 .headright {
     text-align: right;
-    font-size:50px;
+    font-size:45px;
 }
 
 
@@ -184,7 +184,7 @@ body {
     margin-top:10px;
     margin-left: 0px;
     margin-right: 0px;
-    font-size:60px;
+    font-size:45px;
 }
 
 .heading>text{
