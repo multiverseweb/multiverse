@@ -1492,3 +1492,6 @@ hr{
     font-size:40px;
     margin-left:40%;
 }
+.letter:hover{
+    filter:invert(0.4);
+}
