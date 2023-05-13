@@ -1487,3 +1487,8 @@ hr{
       }
 }
 
+.counter{
+    display:flex;
+    float:left;
+    font-size:40px;
+}
