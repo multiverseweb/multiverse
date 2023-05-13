@@ -1235,17 +1235,17 @@ ul.solarsystem li.pluto {
 }
 
 .link{
-    font-size:15px;
-    line-height:22px;
+    font-size:25px;
+    line-height:52px;
   text-decoration: none;
   text-align: center;
     font-family:monospace;
 }
 
-.link a:hover{
+.link:hover{
   color:white;
 }
-.link a:active{
+.link:active{
   color: white;
 }
 
