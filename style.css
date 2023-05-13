@@ -171,12 +171,12 @@ body {
 
 .headleft {
     text-align: left;
-    font-size:45px;
+    font-size:50px;
 }
 
 .headright {
     text-align: right;
-    font-size:45px;
+    font-size:50px;
 }
 
 
@@ -200,6 +200,8 @@ body {
 }
 
 .imgleft {
+    padding-left:5px;
+    padding-right:5px;
     height:300px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -208,6 +210,8 @@ body {
 }
 
 .imgright {
+    padding-left:5px;
+    padding-right:5px;
     height:300px;
     margin-left: 20px;
     margin-bottom: 20px;
