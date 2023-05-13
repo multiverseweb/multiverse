@@ -1238,8 +1238,9 @@ ul.solarsystem li.pluto {
     font-size:25px;
     line-height:52px;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
     font-family:monospace;
+    margin-left: 15%;
 }
 
 .link:hover{
