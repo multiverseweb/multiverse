@@ -239,9 +239,9 @@ body {
 }
 
 form {
-    margin-left: 10%;
+    margin-left: 12.5%;
     margin-right: auto;
-    width: 80%;
+    width: 75%;
     height: 500px;
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, .2);
@@ -1497,5 +1497,6 @@ hr{
     filter:invert(0.4);
 }
 #sign{
-    height: 80px;
+    height: 70px;
+    margin-top:20px;
 }
