@@ -239,10 +239,10 @@ body {
 }
 
 form {
-    margin-left: 50%;
+    margin-left: 10%;
     margin-right: auto;
-    width: 320px;
-    height: 220px;
+    width: 80%;
+    height: 500px;
     padding: 30px;
     border: 1px solid rgba(0, 0, 0, .2);
     -moz-border-radius: 5px;
@@ -260,8 +260,8 @@ form {
 
 textarea {
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
-    width: 255px;
-    height: 38px;
+    width: 70%;
+    height: 80px;
     border: 1px solid rgba(255, 255, 255, .6);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -271,7 +271,7 @@ textarea {
     background-clip: padding-box;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 40px;
     color: #fff;
     padding-left: 45px;
     padding-right: 20px;
@@ -281,8 +281,8 @@ textarea {
 }
 
 input {
-    width: 255px;
-    height: 38px;
+    width: 500px;
+    height: 80px;
     border: 1px solid rgba(255, 255, 255, .4);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -292,7 +292,7 @@ input {
     background-clip: padding-box;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 40px;
     color: #fff;
     padding-left: 20px;
     padding-right: 20px;
@@ -305,17 +305,17 @@ input[type=submit] {
 
 input.name {
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_name.png) no-repeat scroll 16px 16px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 input.email {
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_email.png) no-repeat scroll 16px 20px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 input.message {
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 ::-webkit-input-placeholder {
@@ -344,8 +344,8 @@ textarea:focus {
 }
 
 .btn {
-    width: 138px;
-    height: 44px;
+    width: 250px;
+    height: 88px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
