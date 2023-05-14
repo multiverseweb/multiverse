@@ -260,7 +260,7 @@ form {
 
 textarea {
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
-    width: 70%;
+    width: 90%;
     height: 80px;
     border: 1px solid rgba(255, 255, 255, .6);
     -moz-border-radius: 4px;
@@ -281,7 +281,7 @@ textarea {
 }
 
 input {
-    width: 500px;
+    width: 90%;
     height: 80px;
     border: 1px solid rgba(255, 255, 255, .4);
     -moz-border-radius: 4px;
