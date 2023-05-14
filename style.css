@@ -1496,3 +1496,6 @@ hr{
 .letter:hover{
     filter:invert(0.4);
 }
+#sign{
+    height: 80px;
+}
