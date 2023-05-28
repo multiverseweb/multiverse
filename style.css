@@ -1290,17 +1290,17 @@ hr{
 .square1{
     margin-top: 3px;
     height: 25px;
-    background-color: #03e9f4;
+    background-color: teal;
     width: 25px;
     border: 2px solid #ffff;
 }
 .square{
     margin-top: 3px;
     height: 25px;
-    background-color:teal;
+    background-color:#545454;
     width: 25px;
     border: 2px solid #ffff;
-    margin-left: 50px;
+    margin-left: 170px;
 }
 .scale{
     position:relative;
