@@ -1158,6 +1158,10 @@ ul.solarsystem li.pluto {
           padding-left:20px;
       padding-bottom:20px;
       }
+      
+      #first{
+      margin-top:140px;
+      }
     .header-area{
         width: 100%;
     }
@@ -1176,8 +1180,8 @@ ul.solarsystem li.pluto {
       min-height: 60px;
     }
     .site-navbar ul {
-        margin-top:100px;
-        padding-top:120px;
+        margin-top:130px;
+
       position: absolute;
       width: 100%;
       height: calc(100vh - 0px);
