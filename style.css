@@ -1173,15 +1173,15 @@ ul.solarsystem li.pluto {
     .nav-toggler{
       display: block;
       position: absolute;
-        top:40px;
-      right: 40px;
+        top:47px;
+      right: 55px;
         height:80px;
     }
         .nav-toggler span, 
   .nav-toggler span:before, 
   .nav-toggler span:after {
-    width: 56px;
-    height: 5px;
+    width: 65px;
+    height: 7px;
     background-color: #fff;
     display: block;
     transition: .3s;
