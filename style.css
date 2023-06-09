@@ -149,6 +149,7 @@ body {
     overflow-x:hidden;
     height: 100%;
     width: 100%;
+     font-weight: 200;
 }
 
 
@@ -1089,7 +1090,7 @@ ul.solarsystem li.pluto {
   }
   a.site-logo {
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 300;
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
