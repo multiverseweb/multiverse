@@ -1070,86 +1070,138 @@ ul.solarsystem li.pluto {
 
 
 
-.navbar {
-    margin-left:-8px;
-    font-family:'Times New Roman', Times, serif;
-    margin-top: 210px;
-    background-color: rgb(143, 143, 143, 0.194);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
+
+/*=======================================================*/
+
+  header{
     position: fixed;
-    z-index: 100;
-    width: 100%;
-    transition: top 0.3s;
+    z-index: 10000;
   }
-  
-  .navbar ul {
-    overflow: auto;
-    margin: 0px auto 0;
+  /* navbar regular css start */
+  .navbar-area {
+    background: rgba(0,0,0,.6);
+    border-bottom: 1px solid #000;
+  }
+  .site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a.site-logo {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .site-navbar ul {
+    margin: 0;
     padding: 0;
     list-style: none;
-    display: table;
-    width: 600px;
-    text-align: center;
+    display: flex;
   }
-  
-  .navbar ul li {
-    display: table-cell;
-    position: relative;
-    padding: 0px 0px;
-    font-size: 40px;
-  }
-  
-  .navbar ul li a {
+  .site-navbar ul li a {
     color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.15em;
-    display: inline-block;
-    padding: 6px 30px;
-    position: relative;
-  }
-  
-  .navbar ul li a:after {
-    color: #fff;
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
+    padding: 20px;
     display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: #fff;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
+    text-decoration: none;
+    text-transform: uppercase;
   }
-  
-  .navbar ul li a:hover:after {
-    width: 100%;
-    left: 0;
+  .site-navbar ul li a:hover {
+    background: rgba(255,255,255,.1);
   }
+  /* navbar regular css end */
   
-  @media screen and (max-height: 300px) {
-    ul {
-      margin-top: 40px;
+  
+  /* nav-toggler css start */
+  .nav-toggler {
+    border: #00000000;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+  }
+  .nav-toggler span, 
+  .nav-toggler span:before, 
+  .nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+  }
+  .nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+  }
+  .nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+  }
+  .nav-toggler.toggler-open span {
+    background-color: transparent;
+  }
+  .nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+  }
+  .nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+  /* nav-toggler css start */
+  
+  /* mobile breakpoint start */
+  @media screen and (max-width: 1111px) {
+    .header-area{
+        width: 100%;
     }
-}
-
-.heading {
-    padding-bottom:30px;
-    padding-top:30px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 120px;
-    background-color: rgb(143, 143, 143, 0.174);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    position: fixed;
-    width: 100%;
-    overflow: hidden;
-    z-index: 100;
-    color: white;
-    margin-left:-8px;
+    .container {
+      width: 100%;
+    }
+    /* navbar css for mobile start */
+    .nav-toggler{
+      display: block;
+      position: absolute;
+      right: 20px;
+    }
+    .site-navbar {
+      min-height: 60px;
+    }
+    .site-navbar ul {
+      position: absolute;
+      width: 100%;
+      height: calc(100vh - 60px);
+      left: 0;
+      top: 60px;
+      flex-direction: column;
+      align-items: center;
+      border-top: 1px solid #444;
+      background-color: rgba(0,0,0,.75);
+      backdrop-filter: blur(4px);
+      max-height: 0;
+      overflow: hidden;
+      transition: .3s;
+    }
+    .site-navbar ul li {
+      width: 100%;
+      text-align: center;
+    }
+    .site-navbar ul li a {
+      padding: 25px;
+    }
+    .site-navbar ul li a:hover {
+      background-color: rgba(255,255,255,.1);
+    }
+    .site-navbar ul.open {
+      max-height: 100vh;
+      overflow: visible;
+    }  
+    /* navbar css for mobile end */
   }
+  /* mobile breakpoint end */
+
+
   
   .heading img{
     display: block;
