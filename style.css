@@ -1089,8 +1089,7 @@ ul.solarsystem li.pluto {
   }
   a.site-logo {
     font-size: 26px;
-    font-weight: 800;
-    text-transform: uppercase;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
@@ -1106,7 +1105,6 @@ ul.solarsystem li.pluto {
     padding: 20px;
     display: block;
     text-decoration: none;
-    text-transform: uppercase;
   }
   .site-navbar ul li a:hover {
     background: rgba(255,255,255,.1);
