@@ -1155,6 +1155,8 @@ ul.solarsystem li.pluto {
   @media screen and (max-width: 1111px) {
       a.site-logo {
     font-size: 80px;
+          padding-top:20px;
+          padding-left:20px;
       }
     .header-area{
         width: 100%;
@@ -1168,6 +1170,7 @@ ul.solarsystem li.pluto {
       position: absolute;
         top:40px;
       right: 40px;
+        height:80px;
     }
     .site-navbar {
       min-height: 60px;
@@ -1175,7 +1178,7 @@ ul.solarsystem li.pluto {
     .site-navbar ul {
       position: absolute;
       width: 100%;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 100px);
       left: 0;
       top: 60px;
       flex-direction: column;
@@ -1194,7 +1197,7 @@ ul.solarsystem li.pluto {
     .site-navbar ul li a {
       padding: 25px;
         font-size:50px;
-        margin-top:50px;
+        margin-top:60px;
     }
     .site-navbar ul li a:hover {
       background-color: rgba(255,255,255,.1);
