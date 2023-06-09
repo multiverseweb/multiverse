@@ -1176,6 +1176,7 @@ ul.solarsystem li.pluto {
       min-height: 60px;
     }
     .site-navbar ul {
+        margin-top:100px;
         padding-top:120px;
       position: absolute;
       width: 100%;
@@ -1185,7 +1186,7 @@ ul.solarsystem li.pluto {
       flex-direction: column;
       align-items: center;
       background-color: rgba(0,0,0,.75);
-      backdrop-filter: blur(7px);
+      backdrop-filter: blur(10px);
       max-height: 0;
       overflow: hidden;
       transition: .3s;
@@ -1197,7 +1198,7 @@ ul.solarsystem li.pluto {
     .site-navbar ul li a {
       padding: 25px;
         font-size:50px;
-        margin-top:60px;
+        margin-top:70px;
     }
     .site-navbar ul li a:hover {
       background-color: rgba(255,255,255,.1);
