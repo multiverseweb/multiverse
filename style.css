@@ -1462,11 +1462,11 @@ hr{
     font-size:22px;
 }
 .imgleft {
-    height:150px;
+    height:80px;
 }
 
 .imgright {
-    height:150px;
+    height:80px;
 }
 
   .containerii{
@@ -1522,12 +1522,6 @@ hr{
     z-index: 0;
   }
 
-  .imgleft{
-    height: 150px;
-  }
-  .imgright{
-    height: 150px;
-  }
 
   .moon{
     height: 50px;
