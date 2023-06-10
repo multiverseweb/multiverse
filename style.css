@@ -1445,6 +1445,29 @@ hr{
     html {
         scroll-padding-top: 130px;
     }
+    
+.aboutus {
+    font-size:26px;
+}
+.contactus {
+    font-size:26px;
+}
+.headleft {
+    font-size:26px;
+}
+.headright {
+    font-size:26px;
+}
+.about{
+    font-size:22px;
+}
+.imgleft {
+    height:150px;
+}
+
+.imgright {
+    height:150px;
+}
 
   .containerii{
     max-width:60%;
