@@ -1096,6 +1096,9 @@ ul.solarsystem li.pluto {
     text-decoration: none;
     margin-left: 20px;
   }
+.header-area{
+        width: 100%;
+    }
   .site-navbar ul {
     margin: 0;
     padding: 0;
