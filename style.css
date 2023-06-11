@@ -1137,11 +1137,11 @@ ul.solarsystem li.pluto {
   }
   .nav-toggler span:before {
     content: '';
-    transform: translateY(-19px);
+    transform: translateY(-21px);
   }
   .nav-toggler span:after {
     content: '';
-    transform: translateY(19px);
+    transform: translateY(16px);
   }
   .nav-toggler.toggler-open span {
     background-color: transparent;
@@ -1203,7 +1203,7 @@ ul.solarsystem li.pluto {
       align-items: center;
       background-color: rgba(0,0,0,.6);
       backdrop-filter: blur(10px);
-      /*max-height: 0;*/
+      max-height: 0;
       overflow: hidden;
       transition: .3s;
     }
