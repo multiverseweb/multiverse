@@ -430,12 +430,6 @@ textarea:focus {
     margin-right:auto;
     transition:10s;
 }
-.clearfix:hover {
-        transform: rotateX(180deg);
-        -ms-transform: skew(30deg, 20deg); /* IE 9 */
-        -webkit-transform: skew(30deg, 20deg); /* Safari */
-        transform: skew(30deg, 20deg);
-    }
 
 .solarsystem {
     z-index: 1;
