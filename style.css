@@ -1074,9 +1074,8 @@ ul.solarsystem li.pluto {
   }
   /* navbar regular css start */
   .navbar-area {
-    background: rgba(0,0,0,.6);
+    background: rgba(0,0,0,0.6);
       backdrop-filter: blur(10px);
-    border-bottom: 1px solid #000;
   }
   .site-navbar {
     display: flex;
@@ -1099,6 +1098,7 @@ ul.solarsystem li.pluto {
     padding: 0;
     list-style: none;
     display: flex;
+      backdrop-filter: blur(10px);
   }
   .site-navbar ul li a {
     color: #fff;
@@ -1196,11 +1196,11 @@ ul.solarsystem li.pluto {
       top: 50px;
       flex-direction: column;
       align-items: center;
-      background-color: rgba(0,0,0,.6);
+      background-color: rgba(0,0,0,0.6);
       backdrop-filter: blur(10px);
       max-height: 0;
       overflow: hidden;
-      transition: .3s;
+      transition: 0.3s;
     }
     .site-navbar ul li {
       width: 100%;
