@@ -736,58 +736,58 @@ ul.solarsystem li.earth span {
 }
 
 ul.solarsystem li.mercury {
-    -webkit-animation-duration: 5s;
-    -moz-animation-duration: 5s;
+    -webkit-animation-duration: 2.41s;
+    -moz-animation-duration: 2.41s;
 }
 
 ul.solarsystem li.venus {
-    -webkit-animation-duration: 8s;
-    -moz-animation-duration: 8s;
+    -webkit-animation-duration: 6.16s;
+    -moz-animation-duration: 6.15s;
 }
 
 ul.solarsystem li.earth {
-    -webkit-animation-duration: 12s;
-    -moz-animation-duration: 12s;
+    -webkit-animation-duration: 10s;
+    -moz-animation-duration: 10s;
 }
 
 ul.solarsystem li.earth span {
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
+    -webkit-animation-duration: 0.748s;
+    -moz-animation-duration: 0.748s;
 }
 
 ul.solarsystem li.mars {
-    -webkit-animation-duration: 20s;
-    -moz-animation-duration: 20s;
+    -webkit-animation-duration: 18.8s;
+    -moz-animation-duration: 18.8s;
 }
 
 ul.solarsystem li.asteroids_meteorids {
-    -webkit-animation-duration: 50s;
-    -moz-animation-duration: 50s;
+    -webkit-animation-duration: 45s;
+    -moz-animation-duration: 45s;
 }
 
 ul.solarsystem li.jupiter {
-    -webkit-animation-duration: 30s;
-    -moz-animation-duration: 30s;
+    -webkit-animation-duration: 119s;
+    -moz-animation-duration: 119s;
 }
 
 ul.solarsystem li.saturn {
-    -webkit-animation-duration: 60s;
-    -moz-animation-duration: 60s;
+    -webkit-animation-duration: 294s;
+    -moz-animation-duration: 294s;
 }
 
 ul.solarsystem li.uranus {
-    -webkit-animation-duration: 70s;
-    -moz-animation-duration: 70s;
+    -webkit-animation-duration: 837s;
+    -moz-animation-duration: 837s;
 }
 
 ul.solarsystem li.neptune {
-    -webkit-animation-duration: 100s;
-    -moz-animation-duration: 100s;
+    -webkit-animation-duration: 1637s;
+    -moz-animation-duration: 1637s;
 }
 
 ul.solarsystem li.pluto {
-    -webkit-animation-duration: 120s;
-    -moz-animation-duration: 120s;
+    -webkit-animation-duration: 2479s;
+    -moz-animation-duration: 2479s;
 }
 
 @-webkit-keyframes orbit {
