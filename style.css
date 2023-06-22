@@ -428,6 +428,7 @@ textarea:focus {
     z-index: 1;
     margin-left: -7%;
     transition:10s;
+    margin-top:50px;
 }
 
 .solarsystem {
