@@ -426,8 +426,7 @@ textarea:focus {
 
 .clearfix {
     z-index: 1;
-    margin-left: auto;
-    margin-right:auto;
+    margin-left: -7%;
     transition:10s;
 }
 
