@@ -1216,7 +1216,7 @@ ul.solarsystem li.pluto {
       background-color: rgba(255,255,255,.1);
     }
     .site-navbar ul.open {
-      max-height: 100vh;
+      max-height: 1500%;
       overflow: visible;
     }  
     /* navbar css for mobile end */
