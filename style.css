@@ -20,6 +20,7 @@ body {
     height: 100%;
     width: 100%;
      font-weight: 50;
+    transition:1.3s;
 }
 
 
@@ -76,7 +77,7 @@ a:active{
 
 #dark {
     position: fixed; /* Fixed/sticky position */
-    top: 300px; /* Place the button at the bottom of the page */
+    top: 160px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -101,7 +102,7 @@ a:active{
 
 #night {
     position: fixed; /* Fixed/sticky position */
-    top: 300px; /* Place the button at the bottom of the page */
+    top: 160px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
@@ -1494,14 +1495,14 @@ hr{
 
   
 #dark {
-    top: 120px; /* Place the button at the bottom of the page */
+    top: 70px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     padding: 1px; /* Some padding */
     font-size: 40px; /* Increase font size */
   }
   
 #night {
-    top: 120px; /* Place the button at the bottom of the page */
+    top: 70px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
     padding: 1px; /* Some padding */
     font-size: 40px; /* Increase font size */
