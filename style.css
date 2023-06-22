@@ -1241,7 +1241,9 @@ ul.solarsystem li.pluto {
     height: 380px;
     width: 220%;
     display: block;
-  margin-left: -65%;
+  margin-left: -35%;
+    margin-top:-760px;
+    transform: rotate(20deg);
   }
   
   #imgtext {
