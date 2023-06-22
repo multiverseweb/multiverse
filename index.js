@@ -27,6 +27,8 @@ function topFunction() {
 }
 
 function myFunction() {
+	document.getElementById("ss").style.filter="invert(1)";
+document.getElementById("building").style.filter ="invert(1)";
 	  document.getElementById("glass").style.background = "rgba(44, 44, 44, 0.745)";
   document.getElementById("glass1").style.background = "rgba(44, 44, 44, 0.745)";
   document.getElementById("glass2").style.background = "rgba(44, 44, 44, 0.745)";
@@ -39,6 +41,8 @@ function myFunction() {
   }
 
   function darkFunction() {
+	  document.getElementById("ss").style.filter="invert(0)";
+document.getElementById("building").style.filter ="invert(0)";
 	  document.getElementById("glass").style.background = "rgba(200,200,200, 0.1)";
 	  document.getElementById("glass1").style.background = "rgba(200,200,200, 0.1)";
 	  document.getElementById("glass2").style.background = "rgba(200,200,200, 0.1)";
