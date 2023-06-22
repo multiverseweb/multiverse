@@ -138,7 +138,7 @@ a:active{
 body {
     color: white;
     font-size: 16px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
     display: flex;
     flex-direction: column;
     background: rgb(8,8,8);
