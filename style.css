@@ -1610,6 +1610,9 @@ hr{
 #studyverse{
     margin-top:-500%;
 }
+.colour{
+    color:rgb(75,75,75); 
+}
 .colour:hover{
     color:white;
 }
