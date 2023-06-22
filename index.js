@@ -29,12 +29,12 @@ function topFunction() {
 function myFunction() {
 	document.getElementById("ss").style.filter="invert(1)";
 document.getElementById("building").style.filter ="invert(1)";
-	  document.getElementById("glass").style.background = "rgba(44, 44, 44, 0.745)";
-  document.getElementById("glass1").style.background = "rgba(44, 44, 44, 0.745)";
-  document.getElementById("glass2").style.background = "rgba(44, 44, 44, 0.745)";
-  document.getElementById("glass3").style.background = "rgba(44, 44, 44, 0.745)";
-  document.getElementById("glass4").style.background = "rgba(44, 44, 44, 0.745)";
-  document.getElementById("display").style.color = "white";
+	  document.getElementById("glass").style.background = "rgba(44, 44, 44, 0.145)";
+  document.getElementById("glass1").style.background = "rgba(244, 244, 244, 0.145)";
+  document.getElementById("glass2").style.background = "rgba(244, 244, 244, 0.145)";
+  document.getElementById("glass3").style.background = "rgba(244, 244, 244, 0.145)";
+  document.getElementById("glass4").style.background = "rgba(244, 244, 244, 0.145)";
+  document.getElementById("display").style.color = "black";
   document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
   document.getElementById("dark").style.display = "none";
   document.getElementById("night").style.display = "flex";
