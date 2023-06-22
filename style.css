@@ -91,7 +91,7 @@ a:active{
     transition-duration: 0.4s;
   }
   
-  #dark:hover {
+  #night:hover {
     background: #f2befa;
     color: black;
     box-shadow: 0 0 50px #f2befa,
@@ -116,7 +116,7 @@ a:active{
     transition-duration: 0.4s;
   }
   
-  #night:hover {
+  #dark:hover {
     background:yellow;
     color: black;
     box-shadow: 0 0 50px yellow,
