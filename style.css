@@ -1070,6 +1070,7 @@ ul.solarsystem li.pluto {
   header{
     position: fixed;
     z-index: 10000;
+      margin-left:-10px;
   }
   /* navbar regular css start */
   .navbar-area {
