@@ -1609,7 +1609,8 @@ hr{
     margin-top:20px;
 }
 #studyverse{
-    margin-top:-500%;
+    position:absolute;
+    margin-top:-100%;
 }
 .colour{
     color:rgb(75,75,75); 
