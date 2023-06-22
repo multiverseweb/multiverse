@@ -5,6 +5,24 @@ html {
     width: 100%;
 }
 
+body {
+    color: white;
+    font-size: 16px;
+    font-family: font-family: Papyrus,fantasy; 
+    display: flex;
+    flex-direction: column;
+    background: rgb(8,8,8);
+    background-image: linear-gradient(to right, transparent 49px, rgba(65, 65, 65, 0.607) 1px),
+        linear-gradient(to bottom, transparent 49px, rgba(65, 65, 65, 0.605) 1px);
+    background-size: 50px 50px;
+    background-attachment: fixed;
+    overflow-x:hidden;
+    height: 100%;
+    width: 100%;
+     font-weight: 50;
+}
+
+
 a:hover{
   color:#00000000;
 }
@@ -134,24 +152,6 @@ a:active{
         0 0 50px #03e9f4,
         0 0 200px #03e9f4;
   }
-
-body {
-    color: white;
-    font-size: 16px;
-    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
-    display: flex;
-    flex-direction: column;
-    background: rgb(8,8,8);
-    background-image: linear-gradient(to right, transparent 49px, rgba(65, 65, 65, 0.607) 1px),
-        linear-gradient(to bottom, transparent 49px, rgba(65, 65, 65, 0.605) 1px);
-    background-size: 50px 50px;
-    background-attachment: fixed;
-    overflow-x:hidden;
-    height: 100%;
-    width: 100%;
-     font-weight: 50;
-}
-
 
 
 .center {
