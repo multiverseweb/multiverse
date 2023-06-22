@@ -1243,7 +1243,7 @@ ul.solarsystem li.pluto {
     display: block;
   margin-left: -35%;
     margin-top:-760px;
-    transform: rotate(20deg);
+    transform: rotate(90deg);
   }
   
   #imgtext {
