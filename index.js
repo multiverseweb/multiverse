@@ -33,8 +33,6 @@ function myFunction() {
   document.getElementById("glass3").style.background = "rgba(44, 44, 44, 0.745)";
   document.getElementById("glass4").style.background = "rgba(44, 44, 44, 0.745)";
   document.getElementById("display").style.color = "white";
-document.getElementById("country").style.color = "black";
-document.getElementById("country2").style.color = "black";
   document.getElementById("display").style.backgroundColor = "rgb(181, 181, 181)";
   document.getElementById("dark").style.display = "none";
   document.getElementById("night").style.display = "flex";
@@ -50,8 +48,6 @@ document.getElementById("country2").style.color = "black";
     document.getElementById("display").style.color = "white";
     document.getElementById("night").style.display = "none";
     document.getElementById("dark").style.display = "flex";
-document.getElementById("country").style.color = "white";
-document.getElementById("country2").style.color = "white";
   }
 
 function cpyFunction() {
