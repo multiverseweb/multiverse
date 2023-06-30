@@ -27,7 +27,6 @@ body {
     overflow-x:hidden;
     height: 100%;
     width: 100%;
-     font-weight: 50;
     transition:5s;
 }
 
@@ -209,6 +208,7 @@ a:active{
 }
 
 .text {
+    font-family: Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
     text-align: justify;
     font-size: 45px;
     margin-left: 30px;
