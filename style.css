@@ -6,7 +6,8 @@ html {
 }
 
 .website{
-    width:100%;
+    width:35%;
+    margin-left:58%;
     height:700px;
     border-width:0;
 }
@@ -432,7 +433,7 @@ textarea:focus {
 
 .clearfix {
     z-index: 1;
-    margin-left: -7%;
+    margin-left: -9%;
     transition:10s;
     margin-top:50px;
 }
