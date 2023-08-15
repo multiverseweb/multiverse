@@ -5,6 +5,16 @@ html {
     width: 100%;
 }
 
+#flame{
+    display: none;
+}
+#rocket{
+    display: none;
+}
+.lpad{
+    display: none;
+}
+
 .website {
     width: 35%;
     margin-left: 58%;
@@ -1566,7 +1576,40 @@ hr {
     html {
         scroll-padding-top: 80px;
     }
-
+    #flame{
+        display: block;
+    }
+    #rocket{
+        display: block;
+    }
+    .lpad{
+        display: block;
+    }
+    #rocket{
+        transition-duration: 5s;
+        position: sticky;
+        opacity: 0.8;
+        filter: invert(1);
+        height: 240px;
+        width: 50px;
+        bottom:0vh;
+        margin-left:-25vw;
+    }
+    #flame{
+        transition-duration: 5s;
+        opacity: 0;
+        position: sticky;
+        filter:saturate(0);
+        height: 240px;
+        margin-left:-17vw;
+    }
+    .lpad{
+        position: fixed;
+        height: 270px;
+        width:188px;
+        bottom: 0vh;
+    }
+    
     .barricade {
         font-size: 30px;
     }
