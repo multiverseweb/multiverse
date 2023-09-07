@@ -13,7 +13,7 @@ let mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -22,11 +22,13 @@ function scrollFunction() {
     document.getElementById("rocket").style.bottom= "170vh";
     document.getElementById("flame").style.bottom= "140vh";
     document.getElementById("flame").style.opacity="1";
+    document.getElementById("flame").style.transitionDuration="5s";
   }
   else{
     document.getElementById("rocket").style.bottom="0vh";
-    document.getElementById("flame").style.bottom="-25vh";
-    document.getElementById("flame").style.opacity="0.1";
+    document.getElementById("flame").style.bottom="-35vh";
+    document.getElementById("flame").style.opacity="0.3";
+    document.getElementById("flame").style.transitionDuration="5s";
   }
 }
 
