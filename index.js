@@ -18,7 +18,7 @@ function scrollFunction() {
   } else {
     mybutton.style.display = "none";
   }
-  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
     document.getElementById("rocket").style.bottom= "170vh";
     document.getElementById("flame").style.bottom= "140vh";
     document.getElementById("flame").style.opacity="1";
