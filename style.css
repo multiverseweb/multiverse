@@ -228,7 +228,7 @@ a:active {
 }
 
 .contactus {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:verdana;
     padding-bottom: 30px;
     margin-top: -50px;
     text-align: center;
@@ -258,7 +258,6 @@ a:active {
 }
 
 .text {
-    font-family: Papyrus, fantasy;
     text-align: justify;
     font-size: 45px;
     margin-left: 30px;
@@ -337,7 +336,6 @@ textarea {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     display: block;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     color: #fff;
     padding-left: 20px;
@@ -358,7 +356,6 @@ input {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     display: block;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
     color: #fff;
     padding-left: 20px;
