@@ -225,6 +225,7 @@ a:active {
     margin-top: 0px;
     text-align: center;
     font-size: 50px;
+    font-family:verdana;
 }
 
 .contactus {
@@ -236,17 +237,20 @@ a:active {
 }
 
 .headleft {
+    font-family:verdana;
     text-align: left;
     font-size: 50px;
 }
 
 .headright {
+    font-family:verdana;
     text-align: right;
     font-size: 50px;
 }
 
 
 .about {
+    font-family:verdana;
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
@@ -254,10 +258,12 @@ a:active {
 }
 
 .heading>text {
+    font-family:verdana;
     margin-left: 10px;
 }
 
 .text {
+    font-family:verdana;
     text-align: justify;
     font-size: 45px;
     margin-left: 30px;
@@ -287,7 +293,7 @@ a:active {
 
 
 .contact {
-
+    font-family:verdana;
     margin-left: 5px;
     margin-right: 5px;
     display: flex;
@@ -305,6 +311,7 @@ a:active {
 }
 
 form {
+    font-family:verdana;
     margin-left: 12.5%;
     margin-right: auto;
     width: 75%;
@@ -325,6 +332,7 @@ form {
 }
 
 textarea {
+    font-family:verdana;
     background: rgba(255, 255, 255, 0.4) url(http://luismruiz.com/img/gemicon_message.png) no-repeat scroll 16px 16px;
     width: 95%;
     height: 80px;
@@ -361,6 +369,7 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
+    font-family:verdana;
 }
 
 input[type=submit] {
@@ -408,6 +417,7 @@ textarea:focus {
 }
 
 .btn {
+    font-family:verdana;
     margin-top: 100px;
     width: 250px;
     height: 88px;
@@ -477,6 +487,7 @@ textarea:focus {
 @import url("https://fonts.googleapis.com/css?family=PT+Sans+Narrow");
 
 .multiverse {
+    font-family:verdana;
     text-decoration: none;
     color: white;
 }
@@ -1162,6 +1173,7 @@ header {
     position: fixed;
     z-index: 10000;
     margin-left: -10px;
+    font-family:verdana;
 }
 
 /* navbar regular css start */
@@ -1366,7 +1378,7 @@ a.site-logo {
 }
 
 #imgtext {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:verdana;
     font-size: 45px;
     color: white;
     text-align: center;
@@ -1443,7 +1455,7 @@ a.site-logo {
 }
 
 .xop-info p {
-    font-family: 'Source Sans pro', sans-serif;
+    font-family:verdana;
     color: #fff;
     font-size: 16px;
     text-align: justify;
@@ -1459,7 +1471,7 @@ a.site-logo {
     line-height: 55px;
     text-decoration: none;
     text-align: left;
-    font-family: monospace;
+    font-family:verdana;
     margin-left: 5%;
 }
 
@@ -1479,7 +1491,7 @@ hr {
 
 .end {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:verdana;
     padding-top: 40px;
     padding-bottom: 70px;
     background-color: rgb(32, 32, 32);
@@ -1729,6 +1741,7 @@ hr {
     }
 
     .scaletext {
+        font-family:verdana;
         font-size: 20px;
     }
 
@@ -1794,9 +1807,11 @@ hr {
     .link {
         font-size: 20px;
         margin-top: -80px;
+        font-family:verdana;
     }
 
     form {
+        font-family:verdana;
         height: 250px;
         font-size: 30px;
         margin-left: 58vw;
@@ -1809,6 +1824,7 @@ hr {
         width: 31vw;
         height: 80px;
         font-size: 20px;
+        font-family:verdana;
     }
 
     input {
@@ -1817,12 +1833,14 @@ hr {
         font-size: 20px;
         color: #fff;
         margin-bottom: 10px;
+        font-family:verdana;
     }
 
     .btn {
         margin-top: 10px;
         width: 100px;
         height: 40px;
+        font-family:verdana;
     }
 }
 
